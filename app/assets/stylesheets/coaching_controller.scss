@@ -1,0 +1,25 @@
+// Place all the styles related to the CoachingController controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: black ;
+}
+
+.answer {
+  p {
+    color: #928E8E;
+  }
+}
+
+.ask {
+  width: 450px;
+  margin: 150px auto;
+  #button-only {
+    width: 100px;
+    margin-top: 15px;
+  }
+  label{
+    margin-bottom: 10px;
+  }
+}
