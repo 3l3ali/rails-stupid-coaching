@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+  get '/', to: "coaching#ask";
+
   get 'answer', to: "coaching#answer"
 
   get 'ask', to: "coaching#ask"
